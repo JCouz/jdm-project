@@ -57,6 +57,23 @@ body {
   color: #dc3023;
 }
 
+.footer {
+  background-color: #dc3023;
+  color: #f0f0f0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  transition: filter 0.3s ease;
+}
+
+.footer img:hover {
+  filter: grayscale(100%);
+}
+
 .hero {
   display: flex;
   flex-direction: column;
